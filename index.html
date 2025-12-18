@@ -16,7 +16,7 @@
     .app {
       background: #ffffff;
       width: 96%;
-      max-width: 800px;
+      max-width: 480px;
       padding: 20px;
       border-radius: 12px;
       text-align: center;
@@ -33,8 +33,8 @@
     }
 
     .artist-card img {
-      width: 480px;
-      height: 480px;
+      width: 300px;
+      height: 300px;
       object-fit: cover;
       border-radius: 12px;
       border: 3px solid #f2a7b1;
@@ -74,7 +74,7 @@
     <div class="artist-card">
       <img
         id="artistPhoto"
-        src="images-2/intro.png"
+        src="images-2/intro.jpg"
         alt="Artis"
       >
       <div class="artist-name" id="artistName">
@@ -101,90 +101,90 @@
     const artists = [
         {"name":"Raisa","gender":"wanita", "photo":"images-2/raisa.jpg"},
         {"name":"Isyana Sarasvati","gender":"wanita", "photo":"images-2/isyana.jpg"},
-        {"name":"Maudy Ayunda","gender":"wanita", "photo":"images-2/maudy-ayunda.jpeg"},
-        {"name":"Agnez Mo","gender":"wanita", "photo":"images-2/agnez-mo.webp"},
+        {"name":"Maudy Ayunda","gender":"wanita", "photo":"images-2/maudy-ayunda.jpg"},
+        {"name":"Agnez Mo","gender":"wanita", "photo":"images-2/agnez-mo.jpg"},
         {"name":"Yura Yunita","gender":"wanita", "photo":"images-2/yura.jpg"},
         {"name":"Nadin Amizah","gender":"wanita", "photo":"images-2/nadin-amizah.jpg"},
-        {"name":"Lyodra","gender":"wanita", "photo":"images-2/lyodra.jpeg"},
-        {"name":"Mahalini","gender":"wanita", "photo":"images-2/mahalini.jpeg"},
+        {"name":"Lyodra","gender":"wanita", "photo":"images-2/lyodra.jpg"},
+        {"name":"Mahalini","gender":"wanita", "photo":"images-2/mahalini.jpg"},
         {"name":"Tiara Andini","gender":"wanita", "photo":"images-2/tiara-andini.jpg"},
         {"name":"Feby Putri","gender":"wanita", "photo":"images-2/feby-putri.jpg"},
         {"name":"Prilly Latuconsina","gender":"wanita", "photo":"images-2/prilly-latuconsina.png"},
-        {"name":"Amanda Rawles","gender":"wanita", "photo":"images-2/amanda-rawles.jpeg"},
-        {"name":"Cinta Laura","gender":"wanita", "photo":"images-2/cinta-laura.jpeg"},
+        {"name":"Amanda Rawles","gender":"wanita", "photo":"images-2/amanda-rawles.jpg"},
+        {"name":"Cinta Laura","gender":"wanita", "photo":"images-2/cinta-laura.jpg"},
         {"name":"Chelsea Islan","gender":"wanita", "photo":"images-2/chelsea-islan.jpg"},
         {"name":"Pevita Pearce","gender":"wanita", "photo":"images-2/pevita.jpg"},
-        {"name":"Putri Marino","gender":"wanita", "photo":"images-2/putri-marino.webp"},
-        {"name":"Laura Basuki","gender":"wanita", "photo":"images-2/laura-basuki.avif"},
-        {"name":"Sheila Dara","gender":"wanita", "photo":"images-2/sheila-dara.webp"},
+        {"name":"Putri Marino","gender":"wanita", "photo":"images-2/putri-marino.jpg"},
+        {"name":"Laura Basuki","gender":"wanita", "photo":"images-2/laura-basuki.jpg"},
+        {"name":"Sheila Dara","gender":"wanita", "photo":"images-2/sheila-dara.jpg"},
         {"name":"Tara Basro","gender":"wanita", "photo":"images-2/tara-basro.jpg"},
         {"name":"Anya Geraldine","gender":"wanita", "photo":"images-2/anya-geraldine.jpg"},
         {"name":"Indah Permatasari","gender":"wanita", "photo":"images-2/indah-permatasari.jpg"},
-        {"name":"Marshanda","gender":"wanita", "photo":"images-2/marshanda.webp"},
-        {"name":"Acha Septriasa","gender":"wanita", "photo":"images-2/acha-septriasa.webp"},
+        {"name":"Marshanda","gender":"wanita", "photo":"images-2/marshanda.jpg"},
+        {"name":"Acha Septriasa","gender":"wanita", "photo":"images-2/acha-septriasa.jpg"},
         {"name":"Nagita Slavina","gender":"wanita", "photo":"images-2/nagita.jpg"},
-        {"name":"Aurel Hermansyah","gender":"wanita", "photo":"images-2/aurel-hermansyah.webp"},
-        {"name":"Ziva Magnolya","gender":"wanita", "photo":"images-2/ziva-magnolya.jpeg"},
-        {"name":"Keisya Levronka","gender":"wanita", "photo":"images-2/keisya-levronka.webp"},
-        {"name":"Stefanie Poetri","gender":"wanita", "photo":"images-2/stephanie-putri.avif"},
+        {"name":"Aurel Hermansyah","gender":"wanita", "photo":"images-2/aurel-hermansyah.jpg"},
+        {"name":"Ziva Magnolya","gender":"wanita", "photo":"images-2/ziva-magnolya.jpg"},
+        {"name":"Keisya Levronka","gender":"wanita", "photo":"images-2/keisya-levronka.jpg"},
+        {"name":"Stefanie Poetri","gender":"wanita", "photo":"images-2/stephanie-putri.jpg"},
         {"name":"Brisia Jodie","gender":"wanita", "photo":"images-2/brisia-jodie.jpg"},
-        {"name":"Salshabilla Adriani","gender":"wanita", "photo":"images-2/salshabila-adriani.webp"},
+        {"name":"Salshabilla Adriani","gender":"wanita", "photo":"images-2/salshabila-adriani.jpg"},
         {"name":"Vanessa Prescilla","gender":"wanita", "photo":"images-2/vanessa.jpg"},
-        {"name":"Aurora Ribero","gender":"wanita", "photo":"images-2/aurora-ribero.webp"},
+        {"name":"Aurora Ribero","gender":"wanita", "photo":"images-2/aurora-ribero.jpg"},
         {"name":"Asmara Abigail","gender":"wanita", "photo":"images-2/asmara-abigail.jpg"},
         {"name":"Hanggini","gender":"wanita", "photo":"images-2/hanggini.jpg"},
         {"name":"Syifa Hadju","gender":"wanita", "photo":"images-2/syifa-hadju.jpg"},
         {"name":"Cut Beby Tshabina","gender":"wanita", "photo":"images-2/beby-tsabina.png"},
         {"name":"Haico Van der Veken","gender":"wanita", "photo":"images-2/haico.png"},
         {"name":"Adhisty Zara","gender":"wanita", "photo":"images-2/adhisty-zara.jpg"},
-        {"name":"Gita Savitri","gender":"wanita", "photo":"images-2/gita-savitri.avif"},
+        {"name":"Gita Savitri","gender":"wanita", "photo":"images-2/gita-savitri.jpg"},
         {"name":"Awkarin","gender":"wanita", "photo":"images-2/awkarin.jpg"},
         {"name":"Rachel Vennya","gender":"wanita", "photo":"images-2/rachel-vennya.png"},
         {"name":"Abel Cantika","gender":"wanita", "photo":"images-2/abel-cantika.jpg"},
         {"name":"Aghniny Haque","gender":"wanita", "photo":"images-2/aghniny-haque.jpg"},
-        {"name":"Clara Bernadeth","gender":"wanita", "photo":"images-2/clara-bernadeth.webp"},
+        {"name":"Clara Bernadeth","gender":"wanita", "photo":"images-2/clara-bernadeth.jpg"},
         {"name":"Ranty Maria","gender":"wanita", "photo":"images-2/ranty-maria.jpg"},
         {"name":"Alyssa Daguise","gender":"wanita", "photo":"images-2/alyssa-daguise.jpg"},
-        {"name":"Febby Rastanty","gender":"wanita", "photo":"images-2/febby-rastanty.webp"},
-        {"name":"Audi Marissa","gender":"wanita", "photo":"images-2/audi-marissa.webp"},
+        {"name":"Febby Rastanty","gender":"wanita", "photo":"images-2/febby-rastanty.jpg"},
+        {"name":"Audi Marissa","gender":"wanita", "photo":"images-2/audi-marissa.jpg"},
         {"name":"Dinda Hauw","gender":"wanita", "photo":"images-2/dinda-hauw.jpg"},
-        {"name":"Shenina Cinnamon","gender":"wanita", "photo":"images-2/shenina.avif"},
+        {"name":"Shenina Cinnamon","gender":"wanita", "photo":"images-2/shenina.jpg"},
 
         {"name":"Iqbaal Ramadhan","gender":"pria", "photo":"images-2/iqbal-ramadan.jpg"},
         {"name":"Jefri Nichol","gender":"pria", "photo":"images-2/jefri-nichol.jpg"},
         {"name":"Angga Yunanda","gender":"pria", "photo":"images-2/angga-yunanda.jpg"},
         {"name":"Devano Danendra","gender":"pria", "photo":"images-2/devano.jpg"},
         {"name":"Ardhito Pramono","gender":"pria", "photo":"images-2/ardhito.jpg"},
-        {"name":"Rizky Febian","gender":"pria", "photo":"images-2/rizky-febian.jpeg"},
-        {"name":"Al Ghazali","gender":"pria", "photo":"images-2/al-ghazali.webp"},
+        {"name":"Rizky Febian","gender":"pria", "photo":"images-2/rizky-febian.jpg"},
+        {"name":"Al Ghazali","gender":"pria", "photo":"images-2/al-ghazali.jpg"},
         {"name":"Dul Jaelani","gender":"pria", "photo":"images-2/dul-jaelani.jpg"},
         {"name":"El Rumi","gender":"pria", "photo":"images-2/el-rumi.jpg"},
         {"name":"Bastian Steel","gender":"pria", "photo":"images-2/bastian-steel.jpg"},
-        {"name":"Bryan Domani","gender":"pria", "photo":"images-2/bryan-domani.webp"},
-        {"name":"Rizky Nazar","gender":"pria", "photo":"images-2/rizky-nazar.webp"},
-        {"name":"Teuku Rassya","gender":"pria", "photo":"images-2/teuku-rassya.webp"},
+        {"name":"Bryan Domani","gender":"pria", "photo":"images-2/bryan-domani.jpg"},
+        {"name":"Rizky Nazar","gender":"pria", "photo":"images-2/rizky-nazar.jpg"},
+        {"name":"Teuku Rassya","gender":"pria", "photo":"images-2/teuku-rassya.jpg"},
         {"name":"Refal Hady","gender":"pria", "photo":"images-2/refal-hady.jpg"},
-        {"name":"Omar Daniel","gender":"pria", "photo":"images-2/omar-danie.avif"},
+        {"name":"Omar Daniel","gender":"pria", "photo":"images-2/omar-danie.jpg"},
         {"name":"Bio One","gender":"pria", "photo":"images-2/bio-one.jpg"},
-        {"name":"Giorgino Abraham","gender":"pria", "photo":"images-2/giorgino-abraham.webp"},
-        {"name":"Kiesha Alvaro","gender":"pria", "photo":"images-2/kiesha-alvaro.jpeg"},
-        {"name":"Rizky Billar","gender":"pria", "photo":"images-2/rizky-billar.webp"},
+        {"name":"Giorgino Abraham","gender":"pria", "photo":"images-2/giorgino-abraham.jpg"},
+        {"name":"Kiesha Alvaro","gender":"pria", "photo":"images-2/kiesha-alvaro.jpg"},
+        {"name":"Rizky Billar","gender":"pria", "photo":"images-2/rizky-billar.jpg"},
         {"name":"Verrell Bramasta","gender":"pria", "photo":"images-2/verrel-bramastya.jpg"},
-        {"name":"Aliando Syarief","gender":"pria", "photo":"images-2/aliando-syarief.webp"},
+        {"name":"Aliando Syarief","gender":"pria", "photo":"images-2/aliando-syarief.jpg"},
         {"name":"Kevin Julio","gender":"pria", "photo":"images-2/kevin-julio.jpg"},
         {"name":"Junior Roberts","gender":"pria", "photo":"images-2/junior-robert.jpg"},
-        {"name":"Ari Irham","gender":"pria", "photo":"images-2/ari-irham.avif"},
-        {"name":"Julian Jacob","gender":"pria", "photo":"images-2/julian-jacob.jpeg"},
-        {"name":"Harris Vriza","gender":"pria", "photo":"images-2/harris-vriza.webp"},
+        {"name":"Ari Irham","gender":"pria", "photo":"images-2/ari-irham.jpg"},
+        {"name":"Julian Jacob","gender":"pria", "photo":"images-2/julian-jacob.jpg"},
+        {"name":"Harris Vriza","gender":"pria", "photo":"images-2/harris-vriza.jpg"},
         {"name":"Kenny Austin","gender":"pria", "photo":"images-2/kenny-austin.jpg"},
-        {"name":"Dimas Anggara","gender":"pria", "photo":"images-2/dimas-anggara.webp"},
+        {"name":"Dimas Anggara","gender":"pria", "photo":"images-2/dimas-anggara.jpg"},
         {"name":"Marthino Lio","gender":"pria", "photo":"images-2/marthino-lio.jpg"},
         {"name":"Rendy Jhon","gender":"pria", "photo":"images-2/rendy-jhon.jpg"},
-        {"name":"Yoshi Sudarso","gender":"pria", "photo":"images-2/yoshi-sudarso.avif"},
-        {"name":"Jerome Polin","gender":"pria", "photo":"images-2/jerome-polin.webp"},
-        {"name":"Bayu Skak","gender":"pria", "photo":"images-2/bayu-skak.webp"},
+        {"name":"Yoshi Sudarso","gender":"pria", "photo":"images-2/yoshi-sudarso.jpg"},
+        {"name":"Jerome Polin","gender":"pria", "photo":"images-2/jerome-polin.jpg"},
+        {"name":"Bayu Skak","gender":"pria", "photo":"images-2/bayu-skak.jpg"},
         {"name":"Tretan Muslim","gender":"pria", "photo":"images-2/tretan-muslim.jpg"},
-        {"name":"Coki Pardede","gender":"pria", "photo":"images-2/coki-pardede.webp"},
+        {"name":"Coki Pardede","gender":"pria", "photo":"images-2/coki-pardede.jpg"},
         {"name":"Rigen Rakelna","gender":"pria", "photo":"images-2/rigen.jpg"},
         {"name":"Mamat Alkatiri","gender":"pria", "photo":"images-2/mamat.jpg"},
         {"name":"Marshel Widianto","gender":"pria", "photo":"images-2/marshel-widiyanto.jpg"},
@@ -192,12 +192,12 @@
         {"name":"Young Lex","gender":"pria", "photo":"images-2/young-lex.jpg"},
         {"name":"Atta Halilintar","gender":"pria", "photo":"images-2/atta-halilintar.jpg"},
         {"name":"Thariq Halilintar","gender":"pria", "photo":"images-2/thariq-halilintar.jpg"},
-        {"name":"Fiki Naki","gender":"pria", "photo":"images-2/fiki-naki.webp"},
+        {"name":"Fiki Naki","gender":"pria", "photo":"images-2/fiki-naki.jpg"},
         {"name":"Saaih Halilintar","gender":"pria", "photo":"images-2/saaih-halilintar.jpg"},
-        {"name":"Fadly Faisal","gender":"pria", "photo":"images-2/fadly-faisal.webp"},
-        {"name":"Raditya Dika","gender":"pria", "photo":"images-2/raditya-dika.webp"},
+        {"name":"Fadly Faisal","gender":"pria", "photo":"images-2/fadly-faisal.jpg"},
+        {"name":"Raditya Dika","gender":"pria", "photo":"images-2/raditya-dika.jpg"},
         {"name":"Jeff Smith","gender":"pria", "photo":"images-2/jeff-smith.jpg"},
-        {"name":"Fauzan Nasrul","gender":"pria", "photo":"images-2/fauzan-nasrul.webp"}
+        {"name":"Fauzan Nasrul","gender":"pria", "photo":"images-2/fauzan-nasrul.jpg"}
     ];
 
     const nameInput = document.getElementById("nameInput");
